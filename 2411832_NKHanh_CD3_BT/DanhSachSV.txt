@@ -1,0 +1,5 @@
+﻿2411832|Ngô Kim|Hạnh|15/10/2004|Nu|CTK48A|123456789|0912345678|Đà Lạt|Mạng máy tính,Hệ điều hành
+2411833|Nguyễn Văn|An|20/03/2004|Nam|CTK48A|234567890|0987654321|Lâm Đồng|Lập trình CSDL,Lập trình mạng
+2411834|Trần Thị|Bình|11/07/2004|Nu|CTK48A|345678901|0901234567|Đà Lạt|Đồ án cơ sở,Phương pháp NCKH
+2411835|Lê Văn|Cường|25/12/2003|Nam|CTK47A|456789012|0934567890|Gia Lai|Mạng máy tính,An toàn và bảo mật hệ thống
+2411836|Phạm Thị|Duyên|08/09/2004|Nu|CTK48A|567890123|0978123456|Bình Định|Lập trình trên thiết bị di động,Lập trình CSDL

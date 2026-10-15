@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37614.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CD3_ThaoTacTapTin_HD1", "CD3_ThaoTacTapTin_HD1\CD3_ThaoTacTapTin_HD1.csproj", "{8BC0453C-DDEC-41F5-A811-C94B5760A3EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CD3_ThaoTacTapTin_HD1.2", "CD3_ThaoTacTapTin_HD1.2\CD3_ThaoTacTapTin_HD1.2.csproj", "{03B6924F-5626-4FDC-8451-0A1C79C0A20B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThaoTacTapTin_HD1.2.1", "ThaoTacTapTin_HD1.2.1\ThaoTacTapTin_HD1.2.1.csproj", "{5DA75B79-F6D7-4796-8820-6B53B5E872E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThaoTacTapTin_CD3_HD1.2.2", "ThaoTacTapTin_CD3_HD1.2.2\ThaoTacTapTin_CD3_HD1.2.2.csproj", "{3164E7F1-52D3-4D37-B2F6-A45B72F748CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2411832_NKHanh_CD3_BT", "2411832_NKHanh_CD3_BT\2411832_NKHanh_CD3_BT.csproj", "{36F67F49-9842-43B2-B8D2-CD6A554FDE39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BC0453C-DDEC-41F5-A811-C94B5760A3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC0453C-DDEC-41F5-A811-C94B5760A3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC0453C-DDEC-41F5-A811-C94B5760A3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC0453C-DDEC-41F5-A811-C94B5760A3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B6924F-5626-4FDC-8451-0A1C79C0A20B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B6924F-5626-4FDC-8451-0A1C79C0A20B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B6924F-5626-4FDC-8451-0A1C79C0A20B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B6924F-5626-4FDC-8451-0A1C79C0A20B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA75B79-F6D7-4796-8820-6B53B5E872E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA75B79-F6D7-4796-8820-6B53B5E872E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA75B79-F6D7-4796-8820-6B53B5E872E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA75B79-F6D7-4796-8820-6B53B5E872E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3164E7F1-52D3-4D37-B2F6-A45B72F748CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3164E7F1-52D3-4D37-B2F6-A45B72F748CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3164E7F1-52D3-4D37-B2F6-A45B72F748CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3164E7F1-52D3-4D37-B2F6-A45B72F748CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36F67F49-9842-43B2-B8D2-CD6A554FDE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F67F49-9842-43B2-B8D2-CD6A554FDE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F67F49-9842-43B2-B8D2-CD6A554FDE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F67F49-9842-43B2-B8D2-CD6A554FDE39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D600CB8B-7E11-4960-A1EE-35EB2E8C2275}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSinhVien>
+	<SinhVien>
+		<MSSV>2312001</MSSV>
+		<HoTenLot>Đỗ Minh</HoTenLot>
+		<NgaySinh>2003-01-10T00:00:00</NgaySinh>
+		<SoCMND>666777888</SoCMND>
+		<DiaChiLienLac>TP Hồ Chí Minh</DiaChiLienLac>
+		<GioiTinh>true</GioiTinh>
+		<Ten>Tuấn</Ten>
+		<Lop>CTK47B</Lop>
+		<SDT>0956677889</SDT>
+		<MonHoc>
+			<string>Lập trình mạng</string>
+			<string>Hệ điều hành</string>
+		</MonHoc>
+	</SinhVien>
+
+	<SinhVien>
+		<MSSV>2312002</MSSV>
+		<HoTenLot>Nguyễn Thị</HoTenLot>
+		<NgaySinh>2003-05-25T00:00:00</NgaySinh>
+		<SoCMND>777888999</SoCMND>
+		<DiaChiLienLac>Cần Thơ</DiaChiLienLac>
+		<GioiTinh>false</GioiTinh>
+		<Ten>Thảo</Ten>
+		<Lop>CTK47B</Lop>
+		<SDT>0967788990</SDT>
+		<MonHoc>
+			<string>Phương pháp NCKH</string>
+			<string>Lập trình CSDL</string>
+		</MonHoc>
+	</SinhVien>
+
+	<SinhVien>
+		<MSSV>2312003</MSSV>
+		<HoTenLot>Trần Quốc</HoTenLot>
+		<NgaySinh>2003-08-17T00:00:00</NgaySinh>
+		<SoCMND>888999000</SoCMND>
+		<DiaChiLienLac>Đồng Nai</DiaChiLienLac>
+		<GioiTinh>true</GioiTinh>
+		<Ten>Nam</Ten>
+		<Lop>CTK47B</Lop>
+		<SDT>0978899001</SDT>
+		<MonHoc>
+			<string>An toàn và bảo mật hệ thống</string>
+			<string>Mạng máy tính</string>
+		</MonHoc>
+	</SinhVien>
+</ArrayOfSinhVien>
