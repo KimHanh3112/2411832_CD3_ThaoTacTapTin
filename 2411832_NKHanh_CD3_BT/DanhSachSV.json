@@ -1,77 +1,77 @@
 ﻿[
   {
-    "MSSV": "2612001",
-    "HoTenLot": "Nguyễn Đức",
-    "NgaySinh": "2006-01-12T00:00:00",
-    "SoCMND": "135791357",
-    "DiaChiLienLac": "Lâm Đồng",
+    "MSSV": "2410001",
+    "HoTenLot": "Nguyễn Văn",
+    "Ten": "An",
+    "NgaySinh": "2005-10-15T00:00:00",
     "GioiTinh": true,
-    "Ten": "Phúc",
-    "Lop": "CTK50A",
-    "SDT": "0903456789",
+    "Lop": "CTK48A",
+    "SoCMND": "079123456",
+    "SDT": "0912345678",
+    "DiaChiLienLac": "Đà Lạt",
     "MonHoc": [
-      "Mạng máy tính",
-      "Lập trình mạng"
+      "Lập trình C#",
+      "Mạng máy tính"
     ]
   },
   {
-    "MSSV": "2612002",
-    "HoTenLot": "Trần Thị Thu",
-    "NgaySinh": "2006-03-25T00:00:00",
-    "SoCMND": "246802468",
-    "DiaChiLienLac": "Đà Lạt",
+    "MSSV": "2410002",
+    "HoTenLot": "Trần Thị",
+    "Ten": "Bình",
+    "NgaySinh": "2005-03-20T00:00:00",
     "GioiTinh": false,
-    "Ten": "Trang",
-    "Lop": "CTK50A",
-    "SDT": "0914567890",
+    "Lop": "CTK48A",
+    "SoCMND": "079234567",
+    "SDT": "0923456789",
+    "DiaChiLienLac": "Lâm Đồng",
+    "MonHoc": [
+      "Cơ sở dữ liệu",
+      "Lập trình C#"
+    ]
+  },
+  {
+    "MSSV": "2410003",
+    "HoTenLot": "Lê Văn",
+    "Ten": "Cường",
+    "NgaySinh": "2005-07-12T00:00:00",
+    "GioiTinh": true,
+    "Lop": "CTK48A",
+    "SoCMND": "079345678",
+    "SDT": "0934567890",
+    "DiaChiLienLac": "Gia Lai",
+    "MonHoc": [
+      "Mạng máy tính",
+      "Hệ điều hành"
+    ]
+  },
+  {
+    "MSSV": "2310004",
+    "HoTenLot": "Phạm Thị",
+    "Ten": "Dung",
+    "NgaySinh": "2004-09-08T00:00:00",
+    "GioiTinh": false,
+    "Lop": "CTK47A",
+    "SoCMND": "079456789",
+    "SDT": "0945678901",
+    "DiaChiLienLac": "Bình Định",
+    "MonHoc": [
+      "Lập trình C#",
+      "Cơ sở dữ liệu"
+    ]
+  },
+  {
+    "MSSV": "2310005",
+    "HoTenLot": "Hoàng Minh",
+    "Ten": "Khang",
+    "NgaySinh": "2004-11-25T00:00:00",
+    "GioiTinh": true,
+    "Lop": "CTK47A",
+    "SoCMND": "079567890",
+    "SDT": "0956789012",
+    "DiaChiLienLac": "Đắk Lắk",
     "MonHoc": [
       "Hệ điều hành",
-      "Lập trình CSDL"
-    ]
-  },
-  {
-    "MSSV": "2612003",
-    "HoTenLot": "Lê Hoàng",
-    "NgaySinh": "2006-07-08T00:00:00",
-    "SoCMND": "357913579",
-    "DiaChiLienLac": "Đắk Lắk",
-    "GioiTinh": true,
-    "Ten": "Long",
-    "Lop": "CTK50A",
-    "SDT": "0925678901",
-    "MonHoc": [
-      "Đồ án cơ sở",
-      "Phương pháp NCKH"
-    ]
-  },
-  {
-    "MSSV": "2612004",
-    "HoTenLot": "Phạm Ngọc",
-    "NgaySinh": "2006-09-16T00:00:00",
-    "SoCMND": "468024680",
-    "DiaChiLienLac": "Gia Lai",
-    "GioiTinh": false,
-    "Ten": "Vy",
-    "Lop": "CTK50B",
-    "SDT": "0936789012",
-    "MonHoc": [
-      "Lập trình trên thiết bị di động",
-      "An toàn và bảo mật hệ thống"
-    ]
-  },
-  {
-    "MSSV": "2612005",
-    "HoTenLot": "Võ Minh",
-    "NgaySinh": "2006-11-30T00:00:00",
-    "SoCMND": "579135791",
-    "DiaChiLienLac": "Bình Định",
-    "GioiTinh": true,
-    "Ten": "Khôi",
-    "Lop": "CTK50B",
-    "SDT": "0947890123",
-    "MonHoc": [
-      "Mạng máy tính",
-      "Đồ án cơ sở"
+      "Mạng máy tính"
     ]
   }
 ]

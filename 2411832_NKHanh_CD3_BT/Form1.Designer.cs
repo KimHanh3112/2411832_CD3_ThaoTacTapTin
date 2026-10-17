@@ -71,6 +71,7 @@
             this.cmsSV = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.danhSáchSinhViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuXoaSV = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnLamMoi = new System.Windows.Forms.Button();
             this.cmsDK.SuspendLayout();
             this.gbDSSV.SuspendLayout();
             this.cmsSV.SuspendLayout();
@@ -277,7 +278,7 @@
             this.clbMonHocDK.Location = new System.Drawing.Point(150, 214);
             this.clbMonHocDK.MultiColumn = true;
             this.clbMonHocDK.Name = "clbMonHocDK";
-            this.clbMonHocDK.Size = new System.Drawing.Size(638, 72);
+            this.clbMonHocDK.Size = new System.Drawing.Size(638, 89);
             this.clbMonHocDK.TabIndex = 20;
             // 
             // cmsDK
@@ -300,20 +301,20 @@
             // mnuXoa
             // 
             this.mnuXoa.Name = "mnuXoa";
-            this.mnuXoa.Size = new System.Drawing.Size(224, 26);
+            this.mnuXoa.Size = new System.Drawing.Size(163, 26);
             this.mnuXoa.Text = "Xóa";
             this.mnuXoa.Click += new System.EventHandler(this.mnuXoa_Click);
             // 
             // mnuThem
             // 
             this.mnuThem.Name = "mnuThem";
-            this.mnuThem.Size = new System.Drawing.Size(224, 26);
+            this.mnuThem.Size = new System.Drawing.Size(163, 26);
             this.mnuThem.Text = "Thêm môn";
             this.mnuThem.Click += new System.EventHandler(this.mnuThem_Click);
             // 
             // btnThemMoi
             // 
-            this.btnThemMoi.Location = new System.Drawing.Point(313, 292);
+            this.btnThemMoi.Location = new System.Drawing.Point(327, 309);
             this.btnThemMoi.Name = "btnThemMoi";
             this.btnThemMoi.Size = new System.Drawing.Size(90, 32);
             this.btnThemMoi.TabIndex = 21;
@@ -323,7 +324,7 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(657, 292);
+            this.btnThoat.Location = new System.Drawing.Point(660, 309);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(90, 32);
             this.btnThoat.TabIndex = 22;
@@ -333,7 +334,7 @@
             // 
             // btnTimKiem
             // 
-            this.btnTimKiem.Location = new System.Drawing.Point(423, 292);
+            this.btnTimKiem.Location = new System.Drawing.Point(549, 309);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(90, 32);
             this.btnTimKiem.TabIndex = 23;
@@ -343,7 +344,7 @@
             // 
             // btnCapNhat
             // 
-            this.btnCapNhat.Location = new System.Drawing.Point(537, 292);
+            this.btnCapNhat.Location = new System.Drawing.Point(441, 309);
             this.btnCapNhat.Name = "btnCapNhat";
             this.btnCapNhat.Size = new System.Drawing.Size(90, 32);
             this.btnCapNhat.TabIndex = 24;
@@ -354,9 +355,9 @@
             // gbDSSV
             // 
             this.gbDSSV.Controls.Add(this.lvSinhVien);
-            this.gbDSSV.Location = new System.Drawing.Point(12, 323);
+            this.gbDSSV.Location = new System.Drawing.Point(12, 341);
             this.gbDSSV.Name = "gbDSSV";
-            this.gbDSSV.Size = new System.Drawing.Size(808, 173);
+            this.gbDSSV.Size = new System.Drawing.Size(808, 155);
             this.gbDSSV.TabIndex = 25;
             this.gbDSSV.TabStop = false;
             this.gbDSSV.Text = "Danh sách sinh viên";
@@ -436,15 +437,26 @@
             // mnuXoaSV
             // 
             this.mnuXoaSV.Name = "mnuXoaSV";
-            this.mnuXoaSV.Size = new System.Drawing.Size(224, 26);
+            this.mnuXoaSV.Size = new System.Drawing.Size(196, 26);
             this.mnuXoaSV.Text = "Xóa SV đã chọn";
             this.mnuXoaSV.Click += new System.EventHandler(this.mnuXoaSV_Click);
+            // 
+            // btnLamMoi
+            // 
+            this.btnLamMoi.Location = new System.Drawing.Point(220, 309);
+            this.btnLamMoi.Name = "btnLamMoi";
+            this.btnLamMoi.Size = new System.Drawing.Size(90, 32);
+            this.btnLamMoi.TabIndex = 26;
+            this.btnLamMoi.Text = "Làm mới";
+            this.btnLamMoi.UseVisualStyleBackColor = true;
+            this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(824, 497);
+            this.ClientSize = new System.Drawing.Size(841, 516);
+            this.Controls.Add(this.btnLamMoi);
             this.Controls.Add(this.gbDSSV);
             this.Controls.Add(this.btnCapNhat);
             this.Controls.Add(this.btnTimKiem);
@@ -526,6 +538,7 @@
         private System.Windows.Forms.ContextMenuStrip cmsSV;
         private System.Windows.Forms.ToolStripMenuItem danhSáchSinhViênToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mnuXoaSV;
+        private System.Windows.Forms.Button btnLamMoi;
     }
 }
 

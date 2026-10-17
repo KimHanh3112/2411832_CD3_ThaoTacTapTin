@@ -56,7 +56,6 @@ namespace _2411832_NKHanh_CD3_BT
         private void HienThiKetQua(List<SinhVien> ds)
         {
             lvKetQua.Items.Clear();
-
             foreach (SinhVien sv in ds)
             {
                 ListViewItem item =

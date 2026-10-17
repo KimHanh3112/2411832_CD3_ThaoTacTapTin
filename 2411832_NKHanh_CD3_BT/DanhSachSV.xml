@@ -1,50 +1,85 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ArrayOfSinhVien>
+<ArrayOfSinhVien xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
 	<SinhVien>
-		<MSSV>2312001</MSSV>
-		<HoTenLot>Đỗ Minh</HoTenLot>
-		<NgaySinh>2003-01-10T00:00:00</NgaySinh>
-		<SoCMND>666777888</SoCMND>
-		<DiaChiLienLac>TP Hồ Chí Minh</DiaChiLienLac>
+		<MSSV>2410001</MSSV>
+		<HoTenLot>Nguyễn Văn</HoTenLot>
+		<Ten>An</Ten>
+		<NgaySinh>2005-10-15T00:00:00</NgaySinh>
 		<GioiTinh>true</GioiTinh>
-		<Ten>Tuấn</Ten>
-		<Lop>CTK47B</Lop>
-		<SDT>0956677889</SDT>
+		<Lop>CTK48A</Lop>
+		<SoCMND>079123456</SoCMND>
+		<SDT>0912345678</SDT>
+		<DiaChiLienLac>Đà Lạt</DiaChiLienLac>
 		<MonHoc>
-			<string>Lập trình mạng</string>
+			<string>Lập trình C#</string>
+			<string>Mạng máy tính</string>
+		</MonHoc>
+	</SinhVien>
+
+	<SinhVien>
+		<MSSV>2410002</MSSV>
+		<HoTenLot>Trần Thị</HoTenLot>
+		<Ten>Bình</Ten>
+		<NgaySinh>2005-03-20T00:00:00</NgaySinh>
+		<GioiTinh>false</GioiTinh>
+		<Lop>CTK48A</Lop>
+		<SoCMND>079234567</SoCMND>
+		<SDT>0923456789</SDT>
+		<DiaChiLienLac>Lâm Đồng</DiaChiLienLac>
+		<MonHoc>
+			<string>Cơ sở dữ liệu</string>
+			<string>Lập trình C#</string>
+		</MonHoc>
+	</SinhVien>
+
+	<SinhVien>
+		<MSSV>2410003</MSSV>
+		<HoTenLot>Lê Văn</HoTenLot>
+		<Ten>Cường</Ten>
+		<NgaySinh>2005-07-12T00:00:00</NgaySinh>
+		<GioiTinh>true</GioiTinh>
+		<Lop>CTK48A</Lop>
+		<SoCMND>079345678</SoCMND>
+		<SDT>0934567890</SDT>
+		<DiaChiLienLac>Gia Lai</DiaChiLienLac>
+		<MonHoc>
+			<string>Mạng máy tính</string>
 			<string>Hệ điều hành</string>
 		</MonHoc>
 	</SinhVien>
 
 	<SinhVien>
-		<MSSV>2312002</MSSV>
-		<HoTenLot>Nguyễn Thị</HoTenLot>
-		<NgaySinh>2003-05-25T00:00:00</NgaySinh>
-		<SoCMND>777888999</SoCMND>
-		<DiaChiLienLac>Cần Thơ</DiaChiLienLac>
+		<MSSV>2310004</MSSV>
+		<HoTenLot>Phạm Thị</HoTenLot>
+		<Ten>Dung</Ten>
+		<NgaySinh>2004-09-08T00:00:00</NgaySinh>
 		<GioiTinh>false</GioiTinh>
-		<Ten>Thảo</Ten>
-		<Lop>CTK47B</Lop>
-		<SDT>0967788990</SDT>
+		<Lop>CTK47A</Lop>
+		<SoCMND>079456789</SoCMND>
+		<SDT>0945678901</SDT>
+		<DiaChiLienLac>Bình Định</DiaChiLienLac>
 		<MonHoc>
-			<string>Phương pháp NCKH</string>
-			<string>Lập trình CSDL</string>
+			<string>Lập trình C#</string>
+			<string>Cơ sở dữ liệu</string>
 		</MonHoc>
 	</SinhVien>
 
 	<SinhVien>
-		<MSSV>2312003</MSSV>
-		<HoTenLot>Trần Quốc</HoTenLot>
-		<NgaySinh>2003-08-17T00:00:00</NgaySinh>
-		<SoCMND>888999000</SoCMND>
-		<DiaChiLienLac>Đồng Nai</DiaChiLienLac>
+		<MSSV>2310005</MSSV>
+		<HoTenLot>Hoàng Minh</HoTenLot>
+		<Ten>Khang</Ten>
+		<NgaySinh>2004-11-25T00:00:00</NgaySinh>
 		<GioiTinh>true</GioiTinh>
-		<Ten>Nam</Ten>
-		<Lop>CTK47B</Lop>
-		<SDT>0978899001</SDT>
+		<Lop>CTK47A</Lop>
+		<SoCMND>079567890</SoCMND>
+		<SDT>0956789012</SDT>
+		<DiaChiLienLac>Đắk Lắk</DiaChiLienLac>
 		<MonHoc>
-			<string>An toàn và bảo mật hệ thống</string>
+			<string>Hệ điều hành</string>
 			<string>Mạng máy tính</string>
 		</MonHoc>
 	</SinhVien>
+
 </ArrayOfSinhVien>

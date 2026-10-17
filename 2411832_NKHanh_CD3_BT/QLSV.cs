@@ -23,9 +23,6 @@ namespace _2411832_NKHanh_CD3_BT
             danhSach = DocGhiFile.DocFile(tenFile);
         }
 
-        // =========================================
-        // THÊM SINH VIÊN
-        // =========================================
         public bool Them(SinhVien sv)
         {
             SinhVien sinhVienTimThay = TimTheoMSSV(sv.MSSV);
@@ -42,9 +39,6 @@ namespace _2411832_NKHanh_CD3_BT
             return true;
         }
 
-        // =========================================
-        // CẬP NHẬT SINH VIÊN
-        // =========================================
         public bool CapNhat(SinhVien svMoi)
         {
             SinhVien svCu = TimTheoMSSV(svMoi.MSSV);
@@ -69,9 +63,6 @@ namespace _2411832_NKHanh_CD3_BT
             return true;
         }
 
-        // =========================================
-        // TÌM THEO MSSV
-        // =========================================
         public SinhVien TimTheoMSSV(string mssv)
         {
             foreach (SinhVien sv in danhSach)
@@ -85,9 +76,6 @@ namespace _2411832_NKHanh_CD3_BT
             return null;
         }
 
-        // =========================================
-        // TÌM THEO TÊN
-        // =========================================
         public List<SinhVien> TimTheoTen(string ten)
         {
             List<SinhVien> ketQua = new List<SinhVien>();
@@ -103,9 +91,6 @@ namespace _2411832_NKHanh_CD3_BT
             return ketQua;
         }
 
-        // =========================================
-        // TÌM THEO LỚP
-        // =========================================
         public List<SinhVien> TimTheoLop(string lop)
         {
             List<SinhVien> ketQua = new List<SinhVien>();
@@ -121,9 +106,6 @@ namespace _2411832_NKHanh_CD3_BT
             return ketQua;
         }
 
-        // =========================================
-        // XÓA 1 SINH VIÊN
-        // =========================================
         public bool Xoa(string mssv)
         {
             SinhVien sv = TimTheoMSSV(mssv);
@@ -140,9 +122,6 @@ namespace _2411832_NKHanh_CD3_BT
             return true;
         }
 
-        // =========================================
-        // XÓA NHIỀU SINH VIÊN
-        // =========================================
         public void XoaNhieu(List<string> danhSachMSSV)
         {
             foreach (string mssv in danhSachMSSV)
@@ -158,9 +137,6 @@ namespace _2411832_NKHanh_CD3_BT
             LuuFile();
         }
 
-        // =========================================
-        // KIỂM TRA MSSV
-        // =========================================
         public bool KiemTraMSSVTonTai(string mssv)
         {
             SinhVien sv = TimTheoMSSV(mssv);
@@ -173,25 +149,19 @@ namespace _2411832_NKHanh_CD3_BT
             return false;
         }
 
-        // =========================================
-        // LƯU FILE
-        // =========================================
         public void LuuFile()
         {
             DocGhiFile.GhiFile(tenFile, danhSach);
         }
 
-        // =========================================
-        // ĐỌC LẠI FILE
-        // =========================================
         public void DocLaiFile()
         {
             danhSach = DocGhiFile.DocFile(tenFile);
         }
         public List<SinhVien> TimNhieuDieuKien(
-    string mssv,
-    string ten,
-    string lop)
+           string mssv,
+           string ten,
+           string lop)
         {
             List<SinhVien> ketQua = new List<SinhVien>();
 

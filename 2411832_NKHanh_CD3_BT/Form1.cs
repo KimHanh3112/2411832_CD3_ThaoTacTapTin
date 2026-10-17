@@ -21,36 +21,28 @@ namespace _2411832_NKHanh_CD3_BT
         private void Form1_Load(object sender, EventArgs e)
         {
             OpenFileDialog open = new OpenFileDialog();
-
-            open.Title = "Chọn file danh sách sinh viên";
-
-            open.Filter =
-                "File sinh viên|*.txt;*.xml;*.json|" +
-                "TXT|*.txt|" +
-                "XML|*.xml|" +
-                "JSON|*.json";
-
+            open.Title = "Chọn file dữ liệu sinh viên";
+            open.Filter = "File sinh viên | *.txt; *.xml; *.json|" +
+                " TXT | *.txt|" +
+                " XML | *.xml|" +
+                "JSON | *.json";
             if (open.ShowDialog() == DialogResult.OK)
             {
                 qlsv = new QLSV(open.FileName);
-
                 HienThiDanhSach(qlsv.DanhSach);
             }
             else
             {
-                MessageBox.Show("Bạn chưa chọn file!");
-
+                MessageBox.Show("Bạn chưa chọn file dữ liệu");
                 this.Close();
             }
         }
         private void HienThiDanhSach(List<SinhVien> ds)
         {
             lvSinhVien.Items.Clear();
-
-            foreach (SinhVien sv in ds)
+            foreach ( SinhVien sv in ds)
             {
                 ListViewItem item = new ListViewItem(sv.MSSV);
-
                 item.SubItems.Add(sv.HoTenLot);
                 item.SubItems.Add(sv.Ten);
                 item.SubItems.Add(sv.NgaySinh.ToString("dd/MM/yyyy"));
@@ -60,19 +52,16 @@ namespace _2411832_NKHanh_CD3_BT
                 item.SubItems.Add(sv.DiaChiLienLac);
 
                 item.Tag = sv;
-
                 lvSinhVien.Items.Add(item);
             }
         }
         private List<string> LayDanhSachMon()
         {
             List<string> dsMon = new List<string>();
-
-            foreach (object mon in clbMonHocDK.CheckedItems)
+            foreach ( object mon in clbMonHocDK.CheckedItems)
             {
                 dsMon.Add(mon.ToString());
             }
-
             return dsMon;
         }
         private SinhVien LaySinhVien()
@@ -101,11 +90,11 @@ namespace _2411832_NKHanh_CD3_BT
         }
         private bool KiemTraDuLieu()
         {
-            if (!mtbMSSV.MaskCompleted ||
+            if (!mtbMSSV.MaskCompleted     ||
                 txtHoTen.Text.Trim() == "" ||
-                txtTen.Text.Trim() == "" ||
-                cboLop.Text.Trim() == "" ||
-                !mtbSoCMND.MaskCompleted ||
+                txtTen.Text.Trim() == ""   ||
+                cboLop.Text.Trim() == ""   ||
+                !mtbSoCMND.MaskCompleted   ||
                 !mtbSDT.MaskCompleted ||
                 txtDChi.Text.Trim() == "")
             {
@@ -132,6 +121,12 @@ namespace _2411832_NKHanh_CD3_BT
 
         private void btnThemMoi_Click(object sender, EventArgs e)
         {
+            if (mtbMSSV.ReadOnly)
+            {
+                MessageBox.Show(
+                    "Bạn đang ở chế độ cập nhật. Hãy nhấn Làm mới trước khi thêm sinh viên mới!");
+                return;
+            }
             if (!KiemTraDuLieu())
                 return;
 
@@ -139,11 +134,24 @@ namespace _2411832_NKHanh_CD3_BT
 
             if (qlsv.Them(sv))
             {
-                MessageBox.Show("Thêm sinh viên thành công!");
+                MessageBox.Show(
+                    "Thêm sinh viên thành công!",
+                    "Thông báo",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
 
                 HienThiDanhSach(qlsv.DanhSach);
-
                 XoaTrang();
+            }
+            else
+            {
+                MessageBox.Show(
+                    "MSSV đã tồn tại! Vui lòng nhập MSSV khác.",
+                    "Thông báo",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+
+                mtbMSSV.Focus();
             }
         }
         private void XoaTrang()
@@ -167,7 +175,11 @@ namespace _2411832_NKHanh_CD3_BT
             {
                 clbMonHocDK.SetItemChecked(i, false);
             }
-
+            foreach (ListViewItem item in lvSinhVien.SelectedItems)
+            {
+                item.Selected = false;
+            }
+            mtbMSSV.ReadOnly = false;
             mtbMSSV.Focus();
         }
 
@@ -215,8 +227,12 @@ namespace _2411832_NKHanh_CD3_BT
 
             if (frm.ShowDialog() == DialogResult.OK)
             {
-                string mon = frm.TenMon;
-
+                string mon = frm.TenMon.Trim();
+                if (mon == "")
+                {
+                    MessageBox.Show("Tên môn không được để trống!");
+                    return;
+                }
                 if (clbMonHocDK.Items.Contains(mon))
                 {
                     MessageBox.Show("Môn học đã tồn tại!");
@@ -338,18 +354,10 @@ namespace _2411832_NKHanh_CD3_BT
             txtDChi.Text = sv.DiaChiLienLac;
 
             HienThiMonHoc(sv);
+            mtbMSSV.ReadOnly = true;
         }
         private string LayNamNhapHoc(string lop)
         {
-            if (lop.Contains("K42"))
-                return "18";
-
-            if (lop.Contains("K43"))
-                return "19";
-
-            if (lop.Contains("K44"))
-                return "20";
-
             if (lop.Contains("K45"))
                 return "21";
 
@@ -409,6 +417,11 @@ namespace _2411832_NKHanh_CD3_BT
             }
 
             return true;
+        }
+
+        private void btnLamMoi_Click(object sender, EventArgs e)
+        {
+            XoaTrang();
         }
     }
 }
